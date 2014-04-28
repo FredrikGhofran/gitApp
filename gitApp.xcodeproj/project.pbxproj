@@ -21,6 +21,7 @@
 		45210179190E4988009CE801 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4521015B190E4988009CE801 /* UIKit.framework */; };
 		45210181190E4988009CE801 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4521017F190E4988009CE801 /* InfoPlist.strings */; };
 		45210183190E4988009CE801 /* gitAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45210182190E4988009CE801 /* gitAppTests.m */; };
+		4521018E190E4DB3009CE801 /* Git.m in Sources */ = {isa = PBXBuildFile; fileRef = 4521018D190E4DB3009CE801 /* Git.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4521017E190E4988009CE801 /* gitAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitAppTests-Info.plist"; sourceTree = "<group>"; };
 		45210180190E4988009CE801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45210182190E4988009CE801 /* gitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitAppTests.m; sourceTree = "<group>"; };
+		4521018C190E4DB3009CE801 /* Git.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Git.h; sourceTree = "<group>"; };
+		4521018D190E4DB3009CE801 /* Git.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Git.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				45210169190E4988009CE801 /* Main.storyboard */,
 				4521016C190E4988009CE801 /* ViewController.h */,
 				4521016D190E4988009CE801 /* ViewController.m */,
+				4521018C190E4DB3009CE801 /* Git.h */,
+				4521018D190E4DB3009CE801 /* Git.m */,
 				4521016F190E4988009CE801 /* Images.xcassets */,
 				4521015E190E4988009CE801 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4521018E190E4DB3009CE801 /* Git.m in Sources */,
 				4521016E190E4988009CE801 /* ViewController.m in Sources */,
 				45210168190E4988009CE801 /* AppDelegate.m in Sources */,
 				45210164190E4988009CE801 /* main.m in Sources */,
